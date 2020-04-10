@@ -1,5 +1,5 @@
 
-async function chartIt() {
+async function chartCsv() {
     const data = await getData();
     let myChart = document.getElementById('myChart1').getContext('2d');
 
@@ -52,4 +52,4 @@ async function getData() {
     return { xs, ys };
 }
 
-chartIt();
+chartCsv();

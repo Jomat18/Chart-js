@@ -1,5 +1,5 @@
 
-function chartCsv() {
+function chartApp() {
     let myChart = document.getElementById('myChart2').getContext('2d');
 
     // Global Options
@@ -63,4 +63,4 @@ function chartCsv() {
     });
 }
 
-chartCsv();
+chartApp();
